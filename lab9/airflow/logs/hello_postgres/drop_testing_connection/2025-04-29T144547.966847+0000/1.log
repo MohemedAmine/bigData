@@ -1,0 +1,34 @@
+[2025-04-29 14:47:28,323] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres.drop_testing_connection 2025-04-29T14:45:47.966847+00:00 [queued]>
+[2025-04-29 14:47:28,347] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres.drop_testing_connection 2025-04-29T14:45:47.966847+00:00 [queued]>
+[2025-04-29 14:47:28,348] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-29 14:47:28,349] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2025-04-29 14:47:28,350] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-29 14:47:28,414] {{taskinstance.py:887}} INFO - Executing <Task(PostgresOperator): drop_testing_connection> on 2025-04-29T14:45:47.966847+00:00
+[2025-04-29 14:47:28,421] {{standard_task_runner.py:53}} INFO - Started process 233 to run task
+[2025-04-29 14:47:28,549] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: hello_postgres.drop_testing_connection 2025-04-29T14:45:47.966847+00:00 [running]> myairflow
+[2025-04-29 14:47:28,640] {{postgres_operator.py:62}} INFO - Executing: DROP TABLE IF EXISTS testing_connection;
+[2025-04-29 14:47:28,651] {{taskinstance.py:1128}} ERROR - 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/postgres_operator.py", line 65, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/usr/local/lib/python3.7/site-packages/airflow/hooks/dbapi_hook.py", line 162, in run
+    with closing(self.get_conn()) as conn:
+  File "/usr/local/lib/python3.7/site-packages/airflow/hooks/postgres_hook.py", line 71, in get_conn
+    conn = self.get_connection(conn_id)
+  File "/usr/local/lib/python3.7/site-packages/airflow/hooks/base_hook.py", line 84, in get_connection
+    log.info("Using connection to: %s", conn.log_info())
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/connection.py", line 320, in log_info
+    "XXXXXXXX" if self.password else None,
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/orm/attributes.py", line 353, in __get__
+    retval = self.descriptor.__get__(instance, owner)
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/connection.py", line 190, in get_password
+    return fernet.decrypt(bytes(self._password, 'utf-8')).decode()
+  File "/usr/local/lib/python3.7/site-packages/cryptography/fernet.py", line 171, in decrypt
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+[2025-04-29 14:47:28,743] {{taskinstance.py:1185}} INFO - Marking task as FAILED.dag_id=hello_postgres, task_id=drop_testing_connection, execution_date=20250429T144547, start_date=20250429T144728, end_date=20250429T144728
+[2025-04-29 14:47:38,279] {{logging_mixin.py:112}} INFO - [2025-04-29 14:47:38,278] {{local_task_job.py:103}} INFO - Task exited with return code 1

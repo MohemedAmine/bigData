@@ -1,0 +1,23 @@
+[2025-04-29 15:10:07,205] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres.create_testing_connection 2025-04-29T15:05:24.974385+00:00 [queued]>
+[2025-04-29 15:10:07,216] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: hello_postgres.create_testing_connection 2025-04-29T15:05:24.974385+00:00 [queued]>
+[2025-04-29 15:10:07,216] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-29 15:10:07,217] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2025-04-29 15:10:07,217] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-29 15:10:07,304] {{taskinstance.py:887}} INFO - Executing <Task(PostgresOperator): create_testing_connection> on 2025-04-29T15:05:24.974385+00:00
+[2025-04-29 15:10:07,314] {{standard_task_runner.py:53}} INFO - Started process 928 to run task
+[2025-04-29 15:10:07,445] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: hello_postgres.create_testing_connection 2025-04-29T15:05:24.974385+00:00 [running]> myairflow
+[2025-04-29 15:10:07,468] {{postgres_operator.py:62}} INFO - Executing: 
+            CREATE TABLE testing_connection (
+                dummy_column INTEGER NOT NULL PRIMARY KEY
+            );
+        
+[2025-04-29 15:10:07,482] {{logging_mixin.py:112}} INFO - [2025-04-29 15:10:07,481] {{base_hook.py:84}} INFO - Using connection to: id: mypostgres_connection. Host: mypostgres, Port: 5432, Schema: postgres, Login: postgres, Password: XXXXXXXX, extra: None
+[2025-04-29 15:10:07,519] {{logging_mixin.py:112}} INFO - [2025-04-29 15:10:07,519] {{dbapi_hook.py:174}} INFO - 
+            CREATE TABLE testing_connection (
+                dummy_column INTEGER NOT NULL PRIMARY KEY
+            );
+        
+[2025-04-29 15:10:07,612] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=hello_postgres, task_id=create_testing_connection, execution_date=20250429T150524, start_date=20250429T151007, end_date=20250429T151007
+[2025-04-29 15:10:17,111] {{logging_mixin.py:112}} INFO - [2025-04-29 15:10:17,110] {{local_task_job.py:103}} INFO - Task exited with return code 0

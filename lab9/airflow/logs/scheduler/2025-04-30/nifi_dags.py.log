@@ -1,0 +1,490 @@
+[2025-04-30 09:12:43,789] {{scheduler_job.py:153}} INFO - Started process (PID=80) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:43,795] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:12:43,796] {{logging_mixin.py:112}} INFO - [2025-04-30 09:12:43,795] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:43,818] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:43,970] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:12:43,992] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:12:44,004] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.216 seconds
+[2025-04-30 09:12:49,748] {{scheduler_job.py:153}} INFO - Started process (PID=83) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:49,759] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:12:49,761] {{logging_mixin.py:112}} INFO - [2025-04-30 09:12:49,760] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:49,794] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:49,862] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:12:49,870] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:12:49,875] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.127 seconds
+[2025-04-30 09:12:55,750] {{scheduler_job.py:153}} INFO - Started process (PID=86) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:55,755] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:12:55,756] {{logging_mixin.py:112}} INFO - [2025-04-30 09:12:55,756] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:55,785] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:12:55,853] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:12:55,861] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:12:55,870] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.120 seconds
+[2025-04-30 09:13:01,780] {{scheduler_job.py:153}} INFO - Started process (PID=96) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:01,786] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:01,787] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:01,787] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:01,812] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:01,893] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:01,903] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:01,911] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.131 seconds
+[2025-04-30 09:13:07,778] {{scheduler_job.py:153}} INFO - Started process (PID=99) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:07,787] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:07,789] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:07,789] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:07,849] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:07,922] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:07,929] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:07,934] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.156 seconds
+[2025-04-30 09:13:13,778] {{scheduler_job.py:153}} INFO - Started process (PID=102) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:13,784] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:13,786] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:13,786] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:13,814] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:13,889] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:13,895] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:13,900] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.122 seconds
+[2025-04-30 09:13:19,765] {{scheduler_job.py:153}} INFO - Started process (PID=113) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:19,769] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:19,770] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:19,770] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:19,790] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:19,828] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:19,832] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:19,836] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.070 seconds
+[2025-04-30 09:13:25,781] {{scheduler_job.py:153}} INFO - Started process (PID=116) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:25,785] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:25,786] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:25,786] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:25,809] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:25,852] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:25,857] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:25,861] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.080 seconds
+[2025-04-30 09:13:31,786] {{scheduler_job.py:153}} INFO - Started process (PID=125) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:31,790] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:31,791] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:31,791] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:31,830] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:31,904] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:31,911] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:31,918] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.132 seconds
+[2025-04-30 09:13:37,788] {{scheduler_job.py:153}} INFO - Started process (PID=128) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:37,791] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:37,792] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:37,792] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:37,818] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:37,878] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:37,885] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:37,888] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.101 seconds
+[2025-04-30 09:13:43,800] {{scheduler_job.py:153}} INFO - Started process (PID=131) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:43,804] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:43,805] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:43,805] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:43,854] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:43,905] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:43,909] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:43,912] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.112 seconds
+[2025-04-30 09:13:49,802] {{scheduler_job.py:153}} INFO - Started process (PID=142) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:49,806] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:49,807] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:49,807] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:49,827] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:50,213] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:50,222] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:50,228] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.427 seconds
+[2025-04-30 09:13:55,821] {{scheduler_job.py:153}} INFO - Started process (PID=145) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:55,825] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:13:55,826] {{logging_mixin.py:112}} INFO - [2025-04-30 09:13:55,826] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:55,849] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:13:56,112] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:13:56,130] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:13:56,157] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.336 seconds
+[2025-04-30 09:14:01,826] {{scheduler_job.py:153}} INFO - Started process (PID=155) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:01,831] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:01,832] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:01,832] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:01,855] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:01,909] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:01,914] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:01,919] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.093 seconds
+[2025-04-30 09:14:07,820] {{scheduler_job.py:153}} INFO - Started process (PID=158) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:07,825] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:07,826] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:07,826] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:07,847] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:07,892] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:07,897] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:07,902] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.082 seconds
+[2025-04-30 09:14:13,846] {{scheduler_job.py:153}} INFO - Started process (PID=161) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:13,856] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:13,859] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:13,858] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:13,896] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:13,968] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:13,978] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:13,985] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.139 seconds
+[2025-04-30 09:14:19,847] {{scheduler_job.py:153}} INFO - Started process (PID=164) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:19,853] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:19,855] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:19,855] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:19,896] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:19,972] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:19,983] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:19,991] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.144 seconds
+[2025-04-30 09:14:25,872] {{scheduler_job.py:153}} INFO - Started process (PID=175) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:25,879] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:25,881] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:25,881] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:25,927] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:25,998] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:26,006] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:26,013] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.141 seconds
+[2025-04-30 09:14:31,870] {{scheduler_job.py:153}} INFO - Started process (PID=185) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:31,877] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:31,879] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:31,879] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:31,919] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:31,989] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:31,994] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:32,000] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.130 seconds
+[2025-04-30 09:14:37,871] {{scheduler_job.py:153}} INFO - Started process (PID=188) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:37,874] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:37,875] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:37,875] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:37,905] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:37,948] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:37,952] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:37,956] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.085 seconds
+[2025-04-30 09:14:43,855] {{scheduler_job.py:153}} INFO - Started process (PID=191) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:43,860] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:43,861] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:43,860] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:43,882] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:43,925] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:43,930] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:43,934] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.079 seconds
+[2025-04-30 09:14:49,900] {{scheduler_job.py:153}} INFO - Started process (PID=194) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:49,906] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:49,908] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:49,908] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:49,933] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:49,994] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:49,998] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:50,002] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.102 seconds
+[2025-04-30 09:14:55,887] {{scheduler_job.py:153}} INFO - Started process (PID=205) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:55,894] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:14:55,896] {{logging_mixin.py:112}} INFO - [2025-04-30 09:14:55,896] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:55,931] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:14:56,033] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:14:56,041] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:14:56,047] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.160 seconds
+[2025-04-30 09:15:01,918] {{scheduler_job.py:153}} INFO - Started process (PID=215) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:01,923] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:01,924] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:01,924] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:01,967] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:02,025] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:02,030] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:02,033] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.115 seconds
+[2025-04-30 09:15:07,898] {{scheduler_job.py:153}} INFO - Started process (PID=218) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:07,904] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:07,905] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:07,905] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:07,936] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:07,987] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:07,993] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:07,996] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.098 seconds
+[2025-04-30 09:15:13,897] {{scheduler_job.py:153}} INFO - Started process (PID=221) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:13,901] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:13,901] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:13,901] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:13,929] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:13,974] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:13,977] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:13,981] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.084 seconds
+[2025-04-30 09:15:19,911] {{scheduler_job.py:153}} INFO - Started process (PID=224) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:19,923] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:19,925] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:19,924] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:19,950] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:20,020] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:20,027] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:20,031] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.120 seconds
+[2025-04-30 09:15:25,918] {{scheduler_job.py:153}} INFO - Started process (PID=235) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:25,923] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:25,924] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:25,924] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:25,947] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:26,002] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:26,006] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:26,009] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.091 seconds
+[2025-04-30 09:15:31,922] {{scheduler_job.py:153}} INFO - Started process (PID=245) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:31,927] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:31,929] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:31,928] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:31,958] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:32,008] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:32,015] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:32,021] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.099 seconds
+[2025-04-30 09:15:37,924] {{scheduler_job.py:153}} INFO - Started process (PID=248) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:37,928] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:37,930] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:37,930] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:37,961] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:38,004] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:38,007] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:38,011] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.087 seconds
+[2025-04-30 09:15:43,934] {{scheduler_job.py:153}} INFO - Started process (PID=251) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:43,938] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:43,939] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:43,939] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:43,987] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:44,043] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:44,051] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:44,058] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.124 seconds
+[2025-04-30 09:15:49,942] {{scheduler_job.py:153}} INFO - Started process (PID=254) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:49,955] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:49,956] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:49,956] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:49,998] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:50,065] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:50,073] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:50,078] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.135 seconds
+[2025-04-30 09:15:55,950] {{scheduler_job.py:153}} INFO - Started process (PID=257) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:55,957] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:15:55,959] {{logging_mixin.py:112}} INFO - [2025-04-30 09:15:55,959] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:55,997] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:15:56,387] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:15:56,394] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:15:56,399] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.449 seconds
+[2025-04-30 09:16:01,963] {{scheduler_job.py:153}} INFO - Started process (PID=275) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:01,970] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:01,972] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:01,972] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:02,018] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:02,067] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:02,073] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:02,079] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.115 seconds
+[2025-04-30 09:16:07,981] {{scheduler_job.py:153}} INFO - Started process (PID=278) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:07,986] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:07,987] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:07,987] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:08,012] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:08,067] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:08,071] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:08,075] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.094 seconds
+[2025-04-30 09:16:13,964] {{scheduler_job.py:153}} INFO - Started process (PID=281) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:13,968] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:13,969] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:13,969] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:14,012] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:14,071] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:14,075] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:14,077] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.114 seconds
+[2025-04-30 09:16:20,007] {{scheduler_job.py:153}} INFO - Started process (PID=284) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:20,018] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:20,020] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:20,020] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:20,066] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:20,134] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:20,140] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:20,145] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.139 seconds
+[2025-04-30 09:16:25,988] {{scheduler_job.py:153}} INFO - Started process (PID=287) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:25,993] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:25,994] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:25,994] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:26,031] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:26,090] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:26,097] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:26,102] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.115 seconds
+[2025-04-30 09:16:32,006] {{scheduler_job.py:153}} INFO - Started process (PID=305) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:32,010] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:32,012] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:32,011] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:32,041] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:32,095] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:32,099] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:32,102] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.096 seconds
+[2025-04-30 09:16:38,013] {{scheduler_job.py:153}} INFO - Started process (PID=308) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:38,018] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:38,020] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:38,020] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:38,058] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:38,098] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:38,102] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:38,105] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.093 seconds
+[2025-04-30 09:16:44,009] {{scheduler_job.py:153}} INFO - Started process (PID=311) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:44,016] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:44,018] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:44,017] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:44,054] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:44,095] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:44,099] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:44,104] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.094 seconds
+[2025-04-30 09:16:50,002] {{scheduler_job.py:153}} INFO - Started process (PID=314) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:50,005] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:50,006] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:50,006] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:50,036] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:50,073] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:50,076] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:50,079] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.077 seconds
+[2025-04-30 09:16:56,017] {{scheduler_job.py:153}} INFO - Started process (PID=317) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:56,023] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:16:56,024] {{logging_mixin.py:112}} INFO - [2025-04-30 09:16:56,024] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:56,055] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:16:56,103] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:16:56,109] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:16:56,113] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.096 seconds
+[2025-04-30 09:17:02,021] {{scheduler_job.py:153}} INFO - Started process (PID=335) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:02,025] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:02,026] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:02,026] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:02,054] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:02,114] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:02,124] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:02,133] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.112 seconds
+[2025-04-30 09:17:08,020] {{scheduler_job.py:153}} INFO - Started process (PID=338) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:08,023] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:08,024] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:08,024] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:08,048] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:08,093] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:08,100] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:08,105] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.085 seconds
+[2025-04-30 09:17:14,033] {{scheduler_job.py:153}} INFO - Started process (PID=341) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:14,037] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:14,038] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:14,038] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:14,066] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:14,107] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:14,111] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:14,114] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.082 seconds
+[2025-04-30 09:17:20,035] {{scheduler_job.py:153}} INFO - Started process (PID=344) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:20,040] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:20,041] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:20,040] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:20,073] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:20,112] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:20,116] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:20,119] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.084 seconds
+[2025-04-30 09:17:26,053] {{scheduler_job.py:153}} INFO - Started process (PID=347) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:26,058] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:26,060] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:26,059] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:26,106] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:26,196] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:26,202] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:26,207] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.154 seconds
+[2025-04-30 09:17:32,044] {{scheduler_job.py:153}} INFO - Started process (PID=356) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:32,048] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:32,049] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:32,049] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:32,067] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:32,112] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:32,117] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:32,120] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.077 seconds
+[2025-04-30 09:17:38,063] {{scheduler_job.py:153}} INFO - Started process (PID=367) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:38,069] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:38,070] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:38,070] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:38,110] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:38,158] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:38,162] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:38,165] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.102 seconds
+[2025-04-30 09:17:44,074] {{scheduler_job.py:153}} INFO - Started process (PID=370) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:44,078] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:44,079] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:44,079] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:44,109] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:44,150] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:44,155] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:44,159] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.086 seconds
+[2025-04-30 09:17:50,084] {{scheduler_job.py:153}} INFO - Started process (PID=373) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:50,092] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:50,093] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:50,093] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:50,131] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:50,190] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:50,195] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:50,198] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.114 seconds
+[2025-04-30 09:17:56,084] {{scheduler_job.py:153}} INFO - Started process (PID=376) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:56,088] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:17:56,089] {{logging_mixin.py:112}} INFO - [2025-04-30 09:17:56,089] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:56,115] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:17:56,183] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:17:56,188] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:17:56,192] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.109 seconds
+[2025-04-30 09:18:02,097] {{scheduler_job.py:153}} INFO - Started process (PID=386) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:02,101] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:02,102] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:02,102] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:02,149] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:02,201] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:02,207] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:02,211] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.114 seconds
+[2025-04-30 09:18:08,114] {{scheduler_job.py:153}} INFO - Started process (PID=397) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:08,124] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:08,126] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:08,126] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:08,153] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:08,210] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:08,221] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:08,226] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.112 seconds
+[2025-04-30 09:18:14,113] {{scheduler_job.py:153}} INFO - Started process (PID=400) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:14,116] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:14,118] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:14,118] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:14,143] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:14,182] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:14,185] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:14,188] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.075 seconds
+[2025-04-30 09:18:20,112] {{scheduler_job.py:153}} INFO - Started process (PID=403) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:20,118] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:20,119] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:20,119] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:20,148] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:20,190] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:20,193] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:20,196] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.084 seconds
+[2025-04-30 09:18:26,146] {{scheduler_job.py:153}} INFO - Started process (PID=406) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:26,152] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:26,153] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:26,153] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:26,206] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:26,256] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:26,261] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:26,265] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.119 seconds
+[2025-04-30 09:18:32,129] {{scheduler_job.py:153}} INFO - Started process (PID=416) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:32,136] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:32,138] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:32,137] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:32,187] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:32,243] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:32,249] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:32,253] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.124 seconds
+[2025-04-30 09:18:38,129] {{scheduler_job.py:153}} INFO - Started process (PID=427) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:38,133] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:38,134] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:38,134] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:38,163] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:38,200] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:38,205] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:38,207] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.078 seconds
+[2025-04-30 09:18:44,123] {{scheduler_job.py:153}} INFO - Started process (PID=430) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:44,127] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:44,128] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:44,128] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:44,164] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:44,221] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:44,231] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:44,236] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.113 seconds
+[2025-04-30 09:18:50,143] {{scheduler_job.py:153}} INFO - Started process (PID=433) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:50,147] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:50,148] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:50,148] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:50,187] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:50,239] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:50,243] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:50,246] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.103 seconds
+[2025-04-30 09:18:56,183] {{scheduler_job.py:153}} INFO - Started process (PID=436) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:56,187] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:18:56,189] {{logging_mixin.py:112}} INFO - [2025-04-30 09:18:56,188] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:56,231] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:18:56,288] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:18:56,293] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:18:56,298] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.115 seconds
+[2025-04-30 09:19:02,163] {{scheduler_job.py:153}} INFO - Started process (PID=446) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:02,168] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:19:02,169] {{logging_mixin.py:112}} INFO - [2025-04-30 09:19:02,169] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:02,208] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:02,265] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:19:02,271] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:19:02,276] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.112 seconds
+[2025-04-30 09:19:08,162] {{scheduler_job.py:153}} INFO - Started process (PID=457) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:08,166] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:19:08,167] {{logging_mixin.py:112}} INFO - [2025-04-30 09:19:08,167] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:08,202] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:08,242] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:19:08,246] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:19:08,249] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.088 seconds
+[2025-04-30 09:19:14,175] {{scheduler_job.py:153}} INFO - Started process (PID=460) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:14,182] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:19:14,183] {{logging_mixin.py:112}} INFO - [2025-04-30 09:19:14,183] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:14,213] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:14,254] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:19:14,258] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:19:14,261] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.085 seconds
+[2025-04-30 09:19:20,170] {{scheduler_job.py:153}} INFO - Started process (PID=463) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:20,174] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:19:20,175] {{logging_mixin.py:112}} INFO - [2025-04-30 09:19:20,175] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:20,208] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:20,245] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:19:20,249] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:19:20,254] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.084 seconds
+[2025-04-30 09:19:26,199] {{scheduler_job.py:153}} INFO - Started process (PID=466) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:26,206] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:19:26,208] {{logging_mixin.py:112}} INFO - [2025-04-30 09:19:26,208] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:26,275] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:26,315] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:19:26,321] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:19:26,326] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.127 seconds
+[2025-04-30 09:19:32,201] {{scheduler_job.py:153}} INFO - Started process (PID=476) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:32,207] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:19:32,209] {{logging_mixin.py:112}} INFO - [2025-04-30 09:19:32,209] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:32,252] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:32,332] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:19:32,344] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:19:32,351] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.151 seconds
+[2025-04-30 09:19:38,193] {{scheduler_job.py:153}} INFO - Started process (PID=479) to work on /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:38,199] {{scheduler_job.py:1560}} INFO - Processing file /usr/local/airflow/dags/nifi_dags.py for tasks to queue
+[2025-04-30 09:19:38,200] {{logging_mixin.py:112}} INFO - [2025-04-30 09:19:38,200] {{dagbag.py:403}} INFO - Filling up the DagBag from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:38,237] {{scheduler_job.py:1572}} INFO - DAG(s) dict_keys(['nifi_fetch_processor']) retrieved from /usr/local/airflow/dags/nifi_dags.py
+[2025-04-30 09:19:38,292] {{scheduler_job.py:1282}} INFO - Processing nifi_fetch_processor
+[2025-04-30 09:19:38,296] {{scheduler_job.py:446}} INFO - Skipping SLA check for <DAG: nifi_fetch_processor> because no tasks in DAG have SLAs
+[2025-04-30 09:19:38,300] {{scheduler_job.py:161}} INFO - Processing /usr/local/airflow/dags/nifi_dags.py took 0.107 seconds

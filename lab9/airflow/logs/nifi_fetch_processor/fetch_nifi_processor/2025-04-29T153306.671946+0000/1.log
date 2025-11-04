@@ -1,0 +1,686 @@
+[2025-04-29 15:34:19,410] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: nifi_fetch_processor.fetch_nifi_processor 2025-04-29T15:33:06.671946+00:00 [queued]>
+[2025-04-29 15:34:19,427] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: nifi_fetch_processor.fetch_nifi_processor 2025-04-29T15:33:06.671946+00:00 [queued]>
+[2025-04-29 15:34:19,428] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-29 15:34:19,428] {{taskinstance.py:867}} INFO - Starting attempt 1 of 1
+[2025-04-29 15:34:19,428] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-29 15:34:19,453] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): fetch_nifi_processor> on 2025-04-29T15:33:06.671946+00:00
+[2025-04-29 15:34:19,460] {{standard_task_runner.py:53}} INFO - Started process 182 to run task
+[2025-04-29 15:34:19,535] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: nifi_fetch_processor.fetch_nifi_processor 2025-04-29T15:33:06.671946+00:00 [running]> myairflow
+[2025-04-29 15:34:19,565] {{logging_mixin.py:112}} INFO - [2025-04-29 15:34:19,564] {{base_hook.py:84}} INFO - Using connection to: id: mynifi_connection. Host: mynifi, Port: 8080, Schema: http, Login: postgres, Password: XXXXXXXX, extra: None
+[2025-04-29 15:34:19,593] {{logging_mixin.py:112}} INFO - Rest endpoint: http://mynifi:8080/nifi-api/processors/78b672d9-0196-1000-ffff-ffffb59c3de6
+[2025-04-29 15:34:19,595] {{logging_mixin.py:112}} INFO - Response: <Response [200]>
+[2025-04-29 15:34:19,597] {{logging_mixin.py:112}} INFO - Processor: {
+  "revision": {
+    "version": 0
+  },
+  "id": "78b672d9-0196-1000-ffff-ffffb59c3de6",
+  "uri": "http://mynifi:8080/nifi-api/processors/78b672d9-0196-1000-ffff-ffffb59c3de6",
+  "position": {
+    "x": 216.0,
+    "y": 176.0
+  },
+  "permissions": {
+    "canRead": true,
+    "canWrite": true
+  },
+  "bulletins": [],
+  "component": {
+    "id": "78b672d9-0196-1000-ffff-ffffb59c3de6",
+    "parentGroupId": "78b5b0bd-0196-1000-0000-00007845860c",
+    "position": {
+      "x": 216.0,
+      "y": 176.0
+    },
+    "name": "FetchS3Object",
+    "type": "org.apache.nifi.processors.aws.s3.FetchS3Object",
+    "bundle": {
+      "group": "org.apache.nifi",
+      "artifact": "nifi-aws-nar",
+      "version": "1.14.0"
+    },
+    "state": "RUNNING",
+    "style": {},
+    "relationships": [
+      {
+        "name": "failure",
+        "description": "FlowFiles are routed to failure relationship",
+        "autoTerminate": true
+      },
+      {
+        "name": "success",
+        "description": "FlowFiles are routed to success relationship",
+        "autoTerminate": false
+      }
+    ],
+    "supportsParallelProcessing": true,
+    "supportsEventDriven": false,
+    "supportsBatching": true,
+    "persistsState": false,
+    "restricted": false,
+    "deprecated": false,
+    "executionNodeRestricted": false,
+    "multipleVersionsAvailable": false,
+    "inputRequirement": "INPUT_REQUIRED",
+    "config": {
+      "properties": {
+        "Bucket": "miniobucket",
+        "Object Key": "test/testfile.txt",
+        "Region": "us-west-2",
+        "Access Key": null,
+        "Secret Key": null,
+        "Credentials File": "/opt/nifi/nifi-current/credentials/credentials.properties",
+        "AWS Credentials Provider service": null,
+        "Communications Timeout": "30 secs",
+        "Version": null,
+        "SSL Context Service": null,
+        "Endpoint Override URL": "http://myminio:9000",
+        "Signer Override": "Default Signature",
+        "encryption-service": null,
+        "proxy-configuration-service": null,
+        "Proxy Host": null,
+        "Proxy Host Port": null,
+        "proxy-user-name": null,
+        "proxy-user-password": null,
+        "requester-pays": "false",
+        "range-start": null,
+        "range-length": null
+      },
+      "descriptors": {
+        "Bucket": {
+          "name": "Bucket",
+          "displayName": "Bucket",
+          "description": "",
+          "required": true,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry and FlowFile Attributes",
+          "dependencies": []
+        },
+        "Object Key": {
+          "name": "Object Key",
+          "displayName": "Object Key",
+          "description": "",
+          "defaultValue": "${filename}",
+          "required": true,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry and FlowFile Attributes",
+          "dependencies": []
+        },
+        "Region": {
+          "name": "Region",
+          "displayName": "Region",
+          "description": "",
+          "defaultValue": "us-west-2",
+          "allowableValues": [
+            {
+              "allowableValue": {
+                "displayName": "AWS GovCloud (US)",
+                "value": "us-gov-west-1",
+                "description": "AWS Region Code : us-gov-west-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "AWS GovCloud (US-East)",
+                "value": "us-gov-east-1",
+                "description": "AWS Region Code : us-gov-east-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "US East (N. Virginia)",
+                "value": "us-east-1",
+                "description": "AWS Region Code : us-east-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "US East (Ohio)",
+                "value": "us-east-2",
+                "description": "AWS Region Code : us-east-2"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "US West (N. California)",
+                "value": "us-west-1",
+                "description": "AWS Region Code : us-west-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "US West (Oregon)",
+                "value": "us-west-2",
+                "description": "AWS Region Code : us-west-2"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "EU (Ireland)",
+                "value": "eu-west-1",
+                "description": "AWS Region Code : eu-west-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "EU (London)",
+                "value": "eu-west-2",
+                "description": "AWS Region Code : eu-west-2"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "EU (Paris)",
+                "value": "eu-west-3",
+                "description": "AWS Region Code : eu-west-3"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "EU (Frankfurt)",
+                "value": "eu-central-1",
+                "description": "AWS Region Code : eu-central-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "EU (Stockholm)",
+                "value": "eu-north-1",
+                "description": "AWS Region Code : eu-north-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "EU (Milan)",
+                "value": "eu-south-1",
+                "description": "AWS Region Code : eu-south-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Asia Pacific (Hong Kong)",
+                "value": "ap-east-1",
+                "description": "AWS Region Code : ap-east-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Asia Pacific (Mumbai)",
+                "value": "ap-south-1",
+                "description": "AWS Region Code : ap-south-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Asia Pacific (Singapore)",
+                "value": "ap-southeast-1",
+                "description": "AWS Region Code : ap-southeast-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Asia Pacific (Sydney)",
+                "value": "ap-southeast-2",
+                "description": "AWS Region Code : ap-southeast-2"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Asia Pacific (Tokyo)",
+                "value": "ap-northeast-1",
+                "description": "AWS Region Code : ap-northeast-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Asia Pacific (Seoul)",
+                "value": "ap-northeast-2",
+                "description": "AWS Region Code : ap-northeast-2"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Asia Pacific (Osaka)",
+                "value": "ap-northeast-3",
+                "description": "AWS Region Code : ap-northeast-3"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "South America (Sao Paulo)",
+                "value": "sa-east-1",
+                "description": "AWS Region Code : sa-east-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "China (Beijing)",
+                "value": "cn-north-1",
+                "description": "AWS Region Code : cn-north-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "China (Ningxia)",
+                "value": "cn-northwest-1",
+                "description": "AWS Region Code : cn-northwest-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Canada (Central)",
+                "value": "ca-central-1",
+                "description": "AWS Region Code : ca-central-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Middle East (Bahrain)",
+                "value": "me-south-1",
+                "description": "AWS Region Code : me-south-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Africa (Cape Town)",
+                "value": "af-south-1",
+                "description": "AWS Region Code : af-south-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "US ISO East",
+                "value": "us-iso-east-1",
+                "description": "AWS Region Code : us-iso-east-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "US ISOB East (Ohio)",
+                "value": "us-isob-east-1",
+                "description": "AWS Region Code : us-isob-east-1"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "US ISO West",
+                "value": "us-iso-west-1",
+                "description": "AWS Region Code : us-iso-west-1"
+              },
+              "canRead": true
+            }
+          ],
+          "required": true,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "dependencies": []
+        },
+        "Access Key": {
+          "name": "Access Key",
+          "displayName": "Access Key ID",
+          "description": "",
+          "required": false,
+          "sensitive": true,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry Only",
+          "dependencies": []
+        },
+        "Secret Key": {
+          "name": "Secret Key",
+          "displayName": "Secret Access Key",
+          "description": "",
+          "required": false,
+          "sensitive": true,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry Only",
+          "dependencies": []
+        },
+        "Credentials File": {
+          "name": "Credentials File",
+          "displayName": "Credentials File",
+          "description": "Path to a file containing AWS access key and secret key in properties file format.",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "dependencies": []
+        },
+        "AWS Credentials Provider service": {
+          "name": "AWS Credentials Provider service",
+          "displayName": "AWS Credentials Provider service",
+          "description": "The Controller Service that is used to obtain aws credentials provider",
+          "allowableValues": [],
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "identifiesControllerService": "org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderService",
+          "identifiesControllerServiceBundle": {
+            "group": "org.apache.nifi",
+            "artifact": "nifi-aws-service-api-nar",
+            "version": "1.14.0"
+          },
+          "dependencies": []
+        },
+        "Communications Timeout": {
+          "name": "Communications Timeout",
+          "displayName": "Communications Timeout",
+          "description": "",
+          "defaultValue": "30 secs",
+          "required": true,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "dependencies": []
+        },
+        "Version": {
+          "name": "Version",
+          "displayName": "Version",
+          "description": "The Version of the Object to download",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry and FlowFile Attributes",
+          "dependencies": []
+        },
+        "SSL Context Service": {
+          "name": "SSL Context Service",
+          "displayName": "SSL Context Service",
+          "description": "Specifies an optional SSL Context Service that, if provided, will be used to create connections",
+          "allowableValues": [],
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "identifiesControllerService": "org.apache.nifi.ssl.SSLContextService",
+          "identifiesControllerServiceBundle": {
+            "group": "org.apache.nifi",
+            "artifact": "nifi-standard-services-api-nar",
+            "version": "1.14.0"
+          },
+          "dependencies": []
+        },
+        "Endpoint Override URL": {
+          "name": "Endpoint Override URL",
+          "displayName": "Endpoint Override URL",
+          "description": "Endpoint URL to use instead of the AWS default including scheme, host, port, and path. The AWS libraries select an endpoint URL based on the AWS region, but this property overrides the selected endpoint URL, allowing use with other S3-compatible endpoints.",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry Only",
+          "dependencies": []
+        },
+        "Signer Override": {
+          "name": "Signer Override",
+          "displayName": "Signer Override",
+          "description": "The AWS libraries use the default signer but this property allows you to specify a custom signer to support older S3-compatible services.",
+          "defaultValue": "Default Signature",
+          "allowableValues": [
+            {
+              "allowableValue": {
+                "displayName": "Default Signature",
+                "value": "Default Signature"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Signature v4",
+                "value": "AWSS3V4SignerType"
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "Signature v2",
+                "value": "S3SignerType"
+              },
+              "canRead": true
+            }
+          ],
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "dependencies": []
+        },
+        "encryption-service": {
+          "name": "encryption-service",
+          "displayName": "Encryption Service",
+          "description": "Specifies the Encryption Service Controller used to configure requests. PutS3Object: For backward compatibility, this value is ignored when 'Server Side Encryption' is set. FetchS3Object: Only needs to be configured in case of Server-side Customer Key, Client-side KMS and Client-side Customer Key encryptions.",
+          "allowableValues": [],
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "identifiesControllerService": "org.apache.nifi.processors.aws.s3.AmazonS3EncryptionService",
+          "identifiesControllerServiceBundle": {
+            "group": "org.apache.nifi",
+            "artifact": "nifi-aws-service-api-nar",
+            "version": "1.14.0"
+          },
+          "dependencies": []
+        },
+        "proxy-configuration-service": {
+          "name": "proxy-configuration-service",
+          "displayName": "Proxy Configuration Service",
+          "description": "Specifies the Proxy Configuration Controller Service to proxy network requests. If set, it supersedes proxy settings configured per component. Supported proxies: HTTP + AuthN",
+          "allowableValues": [],
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "identifiesControllerService": "org.apache.nifi.proxy.ProxyConfigurationService",
+          "identifiesControllerServiceBundle": {
+            "group": "org.apache.nifi",
+            "artifact": "nifi-standard-services-api-nar",
+            "version": "1.14.0"
+          },
+          "dependencies": []
+        },
+        "Proxy Host": {
+          "name": "Proxy Host",
+          "displayName": "Proxy Host",
+          "description": "Proxy host name or IP",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry Only",
+          "dependencies": []
+        },
+        "Proxy Host Port": {
+          "name": "Proxy Host Port",
+          "displayName": "Proxy Host Port",
+          "description": "Proxy host port",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry Only",
+          "dependencies": []
+        },
+        "proxy-user-name": {
+          "name": "proxy-user-name",
+          "displayName": "Proxy Username",
+          "description": "Proxy username",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "true (undefined scope)",
+          "dependencies": []
+        },
+        "proxy-user-password": {
+          "name": "proxy-user-password",
+          "displayName": "Proxy Password",
+          "description": "Proxy password",
+          "required": false,
+          "sensitive": true,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "true (undefined scope)",
+          "dependencies": []
+        },
+        "requester-pays": {
+          "name": "requester-pays",
+          "displayName": "Requester Pays",
+          "description": "If true, indicates that the requester consents to pay any charges associated with retrieving objects from the S3 bucket.  This sets the 'x-amz-request-payer' header to 'requester'.",
+          "defaultValue": "false",
+          "allowableValues": [
+            {
+              "allowableValue": {
+                "displayName": "True",
+                "value": "true",
+                "description": "Indicates that the requester consents to pay any charges associated with retrieving objects from the S3 bucket."
+              },
+              "canRead": true
+            },
+            {
+              "allowableValue": {
+                "displayName": "False",
+                "value": "false",
+                "description": "Does not consent to pay requester charges for retrieving objects from the S3 bucket."
+              },
+              "canRead": true
+            }
+          ],
+          "required": true,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": false,
+          "expressionLanguageScope": "Not Supported",
+          "dependencies": []
+        },
+        "range-start": {
+          "name": "range-start",
+          "displayName": "Range Start",
+          "description": "The byte position at which to start reading from the object. An empty value or a value of zero will start reading at the beginning of the object.",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry and FlowFile Attributes",
+          "dependencies": []
+        },
+        "range-length": {
+          "name": "range-length",
+          "displayName": "Range Length",
+          "description": "The number of bytes to download from the object, starting from the Range Start. An empty value or a value that extends beyond the end of the object will read to the end of the object.",
+          "required": false,
+          "sensitive": false,
+          "dynamic": false,
+          "supportsEl": true,
+          "expressionLanguageScope": "Variable Registry and FlowFile Attributes",
+          "dependencies": []
+        }
+      },
+      "schedulingPeriod": "0 sec",
+      "schedulingStrategy": "TIMER_DRIVEN",
+      "executionNode": "ALL",
+      "penaltyDuration": "30 sec",
+      "yieldDuration": "1 sec",
+      "bulletinLevel": "WARN",
+      "runDurationMillis": 0,
+      "concurrentlySchedulableTaskCount": 1,
+      "comments": "",
+      "lossTolerant": false,
+      "defaultConcurrentTasks": {
+        "TIMER_DRIVEN": "1",
+        "EVENT_DRIVEN": "0",
+        "CRON_DRIVEN": "1"
+      },
+      "defaultSchedulingPeriod": {
+        "TIMER_DRIVEN": "0 sec",
+        "CRON_DRIVEN": "* * * * * ?"
+      }
+    },
+    "validationErrors": [],
+    "validationStatus": "VALID",
+    "extensionMissing": false
+  },
+  "inputRequirement": "INPUT_REQUIRED",
+  "status": {
+    "groupId": "78b5b0bd-0196-1000-0000-00007845860c",
+    "id": "78b672d9-0196-1000-ffff-ffffb59c3de6",
+    "name": "FetchS3Object",
+    "runStatus": "Running",
+    "statsLastRefreshed": "15:34:19 UTC",
+    "aggregateSnapshot": {
+      "id": "78b672d9-0196-1000-ffff-ffffb59c3de6",
+      "groupId": "78b5b0bd-0196-1000-0000-00007845860c",
+      "name": "FetchS3Object",
+      "type": "FetchS3Object",
+      "runStatus": "Running",
+      "executionNode": "ALL",
+      "bytesRead": 0,
+      "bytesWritten": 225,
+      "read": "0 bytes",
+      "written": "225 bytes",
+      "flowFilesIn": 5,
+      "bytesIn": 0,
+      "input": "5 (0 bytes)",
+      "flowFilesOut": 5,
+      "bytesOut": 225,
+      "output": "5 (225 bytes)",
+      "taskCount": 5,
+      "tasksDurationNanos": 288405932,
+      "tasks": "5",
+      "tasksDuration": "00:00:00.288",
+      "activeThreadCount": 0,
+      "terminatedThreadCount": 0
+    }
+  },
+  "operatePermissions": {
+    "canRead": true,
+    "canWrite": true
+  }
+}
+[2025-04-29 15:34:19,598] {{python_operator.py:114}} INFO - Done. Returned value was: None
+[2025-04-29 15:34:19,604] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=nifi_fetch_processor, task_id=fetch_nifi_processor, execution_date=20250429T153306, start_date=20250429T153419, end_date=20250429T153419
+[2025-04-29 15:34:29,378] {{logging_mixin.py:112}} INFO - [2025-04-29 15:34:29,378] {{local_task_job.py:103}} INFO - Task exited with return code 0
