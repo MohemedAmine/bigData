@@ -1,7 +1,0 @@
-# Ignore Airflow logs
-logs/
-*.log
-
-# Ignore other system files
-__pycache__/
-*.pyc
